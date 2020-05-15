@@ -186,8 +186,8 @@ int main()
           }
         }
         
-        if(ok == true) lcd.print("Dobro pamtis");
-        else lcd.print("senilan si");
+        if(ok == true) lcd.print("Zapamtio si");
+        else lcd.print("Nisi zapamtio");
       }
       
       lcd.setCursor(pozicija, 0);
